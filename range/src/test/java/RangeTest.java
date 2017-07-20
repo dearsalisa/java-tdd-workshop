@@ -71,7 +71,7 @@ public class RangeTest {
         assertEquals(5, actualResult);
     }
 
-    @Test @Ignore
+    @Test
     public void
     หาตัวเลขสุดท้าย2() {
         MyRange range = new MyRange();
@@ -79,7 +79,7 @@ public class RangeTest {
         assertEquals(4, actualResult);
     }
 
-    @Test @Ignore
+    @Test
     public void final_problem() {
         MyRange range = new MyRange();
         assertEquals("12345", range.of("[1,5]"));
