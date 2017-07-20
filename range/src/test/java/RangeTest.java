@@ -15,7 +15,7 @@ public class RangeTest {
         assertTrue("ต้องเป็นก้ามปูเปิดนะ", actualResult);
     }
 
-    @Test @Ignore
+    @Test
     public void
     ตรวจสอบว่าเป็น_วงเล็บเปิด() {
         MyRange range = new MyRange();
@@ -23,7 +23,7 @@ public class RangeTest {
         assertFalse("ต้องเป็นวงเล็บเปิดนะ", actualResult);
     }
 
-    @Test @Ignore
+    @Test
     public void
     หาตัวเลขเริ่มต้น() {
         MyRange range = new MyRange();
@@ -31,7 +31,7 @@ public class RangeTest {
         assertEquals(1, actualResult);
     }
 
-    @Test @Ignore
+    @Test
     public void
     หาตัวเลขเริ่มต้น2() {
         MyRange range = new MyRange();
@@ -39,7 +39,7 @@ public class RangeTest {
         assertEquals(2, actualResult);
     }
 
-    @Test @Ignore
+    @Test 
     public void
     หาตัวเลขเริ่มต้น3() {
         MyRange range = new MyRange();
