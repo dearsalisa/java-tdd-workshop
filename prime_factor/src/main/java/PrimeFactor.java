@@ -8,7 +8,7 @@ public class PrimeFactor {
             result.add(2);
             number /= 2;
         }
-        if(number%3 == 0) {
+        while (number%3 == 0) {
             result.add(3);
             number /= 3;
         }
