@@ -8,13 +8,13 @@ import static org.junit.Assert.assertEquals;
 
 public class PrimeFactorTest {
 
-    @Test @Ignore
+    @Test
     public void should_return_empty_when_number_is_1() {
         PrimeFactor primeFactor = new PrimeFactor();
         assertEquals(list(), primeFactor.of(1));
     }
 
-    @Test @Ignore
+    @Test
     public void should_return_2_when_number_is_2() {
         PrimeFactor primeFactor = new PrimeFactor();
         assertEquals(list(2), primeFactor.of(2));

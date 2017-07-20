@@ -3,6 +3,7 @@ import java.util.List;
 
 public class PrimeFactor {
     public List<Integer> of(int number) {
-        return null;
+        List result = new ArrayList();
+        return result;
     }
 }
