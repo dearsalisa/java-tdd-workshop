@@ -8,7 +8,7 @@ public class MyRange {
     }
 
     public boolean isก้ามปูปิด(String input) {
-        return false;
+        return input.endsWith("]");
     }
 
     public int getFirstNumber(String input) {
