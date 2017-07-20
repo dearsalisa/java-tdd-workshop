@@ -4,7 +4,7 @@ import java.util.List;
 public class PrimeFactor {
     public List<Integer> of(int number) {
         List result = new ArrayList();
-        if(number%2 == 0) {
+        while (number%2 == 0) {
             result.add(2);
             number /= 2;
         }
