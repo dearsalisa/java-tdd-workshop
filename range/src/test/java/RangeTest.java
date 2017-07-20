@@ -39,7 +39,7 @@ public class RangeTest {
         assertEquals(2, actualResult);
     }
 
-    @Test 
+    @Test
     public void
     หาตัวเลขเริ่มต้น3() {
         MyRange range = new MyRange();
@@ -47,7 +47,7 @@ public class RangeTest {
         assertEquals(2, actualResult);
     }
 
-    @Test @Ignore
+    @Test
     public void
     ตรวจสอบว่าเป็น_ก้ามปูปิด() {
         MyRange range = new MyRange();
